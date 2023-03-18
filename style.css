@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card_weather {
+    width: 418px;
+    height: 70vh;
+    padding: 10px 20px;
+    background-color: rgba(255, 166, 0, 0.26);
+}
+
+img {
+    width: 20px;
+    padding: 15px;
+    background: #0000001c;
+    border-radius: 50%;
+}
+
+.inputBox {
+    border: none;
+    height: 40px;
+    width: 200px;
+    background: none;
+    align-items: center;
+    width: 60%;
+    padding: 5px;
+    background: #fff;
+
+    border-radius:10px ;
+
+}
+
+.search_box {
+    display: flex;
+    gap: 20px;
+    border-radius:10px ;
+}
